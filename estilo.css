@@ -1,0 +1,118 @@
+@charset "UTF-8";
+    @font-face {
+      font-family: 'idroid.otf'; /* Nome que você dará à fonte */
+      src: url(fontes/idroid.otf) format('truetype'); /* Caminho do ficheiro da fonte */
+    }
+    header {
+      background-image: linear-gradient(to bottom, #80c48a, rgb(50, 87, 36));
+      padding: 5px;
+      padding-bottom: 10px;
+      
+      
+    }
+    header > p {
+      text-align: center;
+      color: white;
+      padding-bottom: 40px;
+      padding-top: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-shadow: 1px 1px 1px black;
+    }
+    nav > a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      box-shadow: 1px 1px 1px black;
+      
+    }
+    nav > a:hover {
+      background-color: #2E5D38;
+      
+    }
+
+    main {
+      background-color: white;
+      margin-left: 25%;
+      margin-right: 25%;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-top: 1px;
+
+    }
+    main > p {
+      margin-left: 10px;
+      text-indent: 20px;
+      
+    }
+
+    h1 {
+        text-align: center;
+        font-size: xx-large;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 1px 1px 1px black;
+   }
+   h2 {
+    font-family: 'idroid.otf';
+    margin-left: 20px;
+    background-image: linear-gradient(to right, rgb(74, 158, 74), white);
+    padding-left: 10px;
+    
+   }
+   h3 {
+    background-color: #63a780;
+    color: white;
+    padding: 3px;
+    border-radius: 10px 10px 0px 0px;
+
+   }
+
+   body {
+        color: black;
+        background-color: #84E1AD
+   }
+   nav {
+     font-family: Arial, Helvetica, sans-serif;
+     
+   }
+
+   img {
+    margin-left: 12px;
+   }
+
+   a {
+    margin: 2px;
+    
+   }
+   article {
+    background-color: #C5EBD6;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+   }
+
+   article > p {
+    text-indent: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+   }
+   
+
+  .final {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+   footer {
+    text-align: center;
+    background-color: #2E5D38;
+    color: white;
+    padding: 10px;
+    
+   }
+   
+  
+
+  
