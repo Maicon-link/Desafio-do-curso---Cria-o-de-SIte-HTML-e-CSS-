@@ -7,7 +7,7 @@
       background-image: linear-gradient(to bottom, #80c48a, rgb(50, 87, 36));
       padding: 5px;
       padding-bottom: 10px;
-      
+           
       
     }
     header > p {
@@ -81,8 +81,19 @@
 
    a {
     margin: 2px;
+    color: black;
     
    }
+
+   footer a {
+    color: white;
+   }
+
+  abbr {
+    text-decoration: none;
+  }
+  
+
    article {
     background-color: #C5EBD6;
     margin-left: 10px;
